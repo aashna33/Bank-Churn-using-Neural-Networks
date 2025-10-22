@@ -14,3 +14,20 @@ __pycache__/
 # Ignore IDE folders
 .vscode/
 .idea/
+
+# Ignore virtual environments
+tfenv/
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.lib
+*.so
+*.dylib
+
+# Ignore IDE files
+.vscode/
+.idea/
