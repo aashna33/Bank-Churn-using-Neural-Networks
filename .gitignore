@@ -11,23 +11,16 @@ __pycache__/
 *.so
 *.dylib
 
-# Ignore IDE folders
+# Ignore model files (optional)
+*.h5
+*.pb
+*.ckpt
+*.data*
+*.pt
+*.onnx
+
+# Ignore IDE and OS files
 .vscode/
 .idea/
-
-# Ignore virtual environments
-tfenv/
-venv/
-.env/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.dll
-*.lib
-*.so
-*.dylib
-
-# Ignore IDE files
-.vscode/
-.idea/
+.DS_Store
+Thumbs.db
